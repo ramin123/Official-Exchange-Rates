@@ -21,10 +21,10 @@ To get this project up and running on your local machine, follow these steps:
 
 ## Usage
 
-1 - Once the application is running, you can view the Login Page :
-Username : Rohullah
-Password : 123456
-2 - View of Official Exchange Rates that is main view
+1 - Once the application is running, you can view the Login Page :.
+Username : Rohullah.
+Password : 123456.
+2 - View of Official Exchange Rates that is main view.
 
 
 ![Capture](https://github.com/user-attachments/assets/6fe6e5bf-6987-4dc3-9325-92459f8828fa)
