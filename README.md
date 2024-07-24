@@ -1,3 +1,43 @@
+# Официальные курсы обмена с использованием PHP CodeIgniter
+
+Этот проект - это простое PHP-приложение, построенное на фреймворке CodeIgniter, которое получает и отображает официальные курсы обмена. Он использует надежный источник финансовых данных для предоставления актуальных курсов обмена для различных валют.
+
+## Особенности
+
+- Получение официальных курсов обмена из надежного источника данных.
+- Отображение курсов обмена в удобном для пользователя формате.
+- Построен с использованием фреймворка CodeIgniter для простого обслуживания и масштабируемости.
+
+## Начало работы
+
+Для запуска этого проекта на вашем локальном компьютере выполните следующие шаги:
+
+1. Клонируйте репозиторий или загрузите исходный код с GitHub.
+2. Убедитесь, что у вас настроена среда PHP с Apache/Nginx и MySQL.
+3. Распакуйте исходный код в корневой каталог вашего веб-сервера.
+4. Импортируйте предоставленный файл SQL в свою базу данных MySQL.
+5. Настройте параметры базы данных в `application/config/database.php`.
+6. Откройте приложение в вашем веб-браузере, перейдя по соответствующему URL-адресу.
+
+## Использование
+
+1. Once the application is running, you can view the Login Page :
+- Username : Rohullah
+- Password : 123456
+2. View of Official Exchange Rates that is main view.
+  
+![Capture](https://github.com/user-attachments/assets/6fe6e5bf-6987-4dc3-9325-92459f8828fa)
+
+## Источник API
+
+Этот проект использует  http://www.cbr.ru/scripts/XML_daily.asp в качестве источника официальных курсов обмена. Курсы обновляются ежедневно и считаются надежными для общей информации.
+
+
+
+
+---
+
+
 # Official Exchange Rates with PHP CodeIgniter
 
 This project is a simple PHP application built on the CodeIgniter framework that fetches and displays official exchange rates. It uses a reliable financial data source to provide up-to-date exchange rates for various currencies.
@@ -38,8 +78,4 @@ This project uses http://www.cbr.ru/scripts/XML_daily.asp as the source for offi
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-
-## Acknowledgments
-
-- The CodeIgniter community for maintaining a lightweight and easy-to-use PHP framework.
 
